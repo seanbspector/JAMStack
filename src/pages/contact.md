@@ -5,8 +5,10 @@ tags: page
 navTitle: Contact
 ---
 
-## Here's how:
+<h2>Here's how:</h2>
 
-- 917 865 5517
+<ul>
+  <li>917 865 5517</li>
+</ul>
 
-[Home](/)
+<a href="/">Home</a>

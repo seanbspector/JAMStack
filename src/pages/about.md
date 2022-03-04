@@ -1,13 +1,11 @@
 ---
-layout: layout.html
 pageTitle: About Us
-tags: page
 navTitle: About
 ---
 
 ## We are
 
-- a group of commited citizens
+- a group of commited New Yorkers
 - a caring community
 - a force in national politics
 

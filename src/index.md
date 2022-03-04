@@ -1,10 +1,14 @@
 ---
 layout: layout.html
 pageTitle: New York Today
+tags: page
+navTitle: Home
 ---
 
 ## Articles
 
-> This is going to be quote
+{% for page in collections.page %}
 
-A list of articles will appear here
+  <h2><a href="{{ page.url }}">{{ page.data.pageTitle }}</a></h2>
+  <em>{{ page.date | date: "%Y-%m-%d" }}</em>
+{% endfor %}
